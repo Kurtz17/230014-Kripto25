@@ -47,34 +47,35 @@ Program ini merupakan implementasi algoritma Hill Cipher dengan tiga fitur utama
 2. **Tampilkan Menu Utama**
 
 3. **Input pilihan menu**
-- Jika **1 → Enkripsi**:
-  1. Input ukuran matriks `n`.
-  2. Input matriks kunci (per baris).
-  3. Input plaintext.
-  4. Konversi plaintext → angka.
-  5. Bagi menjadi blok ukuran `n`.
-  6. Kalikan blok dengan matriks kunci (mod 26).
-  7. Gabungkan hasil menjadi ciphertext.
-  8. Tampilkan ciphertext.
 
-- Jika **2 → Dekripsi**:
-  1. Input ukuran matriks `n`.
-  2. Input matriks kunci (per baris).
-  3. Input ciphertext.
-  4. Hitung determinan kunci.
-  5. Cari invers determinan (mod 26).
-  6. Susun invers matriks kunci (mod 26).
-  7. Kalikan ciphertext dengan matriks invers (mod 26).
-  8. Gabungkan hasil menjadi plaintext.
-  9. Tampilkan plaintext.
+- Jika **1 → Enkripsi**:
+  - Input ukuran matriks `n`.
+  - Input matriks kunci (per baris).
+  - Input plaintext.
+  - Konversi plaintext → angka.
+  - Bagi menjadi blok ukuran `n`.
+  - Kalikan blok dengan matriks kunci (mod 26).
+  - Gabungkan hasil menjadi ciphertext.
+  - Tampilkan ciphertext.
+
+- Jika **2 → Deskripsi**:
+  - Input ukuran matriks `n`.
+  - Input matriks kunci (per baris).
+  - Input ciphertext.
+  - Hitung determinan kunci.
+  - Cari invers determinan (mod 26).
+  - Susun invers matriks kunci (mod 26).
+  - Kalikan ciphertext dengan matriks invers (mod 26).
+  - Gabungkan hasil menjadi plaintext.
+  - Tampilkan plaintext.
 
 - Jika **3 → Mencari Kunci PT & CT**:
-  1. Input ukuran matriks `n`.
-  2. Input plaintext & ciphertext (≥ n² huruf).
-  3. Bangun matriks P dan C dari blok teks.
-  4. Cari submatriks P yang invertible (mod 26).
-  5. Hitung K = C · P⁻¹ (mod 26).
-  6. Tampilkan matriks kunci.
+  - Input ukuran matriks `n`.
+  - Input plaintext & ciphertext (≥ n² huruf).
+  - Bangun matriks P dan C dari blok teks.
+  - Cari submatriks P yang invertible (mod 26).
+  - Hitung K = C · P⁻¹ (mod 26).
+  - Tampilkan matriks kunci.
 
 - Jika **0 → Keluar**:
   - Program berhenti.
@@ -90,8 +91,8 @@ Program ini merupakan implementasi algoritma Hill Cipher dengan tiga fitur utama
 ### Enkripsi
 ![Enkripsi](screenshots/enkripsi.png)
 
-### Dekripsi
-![Dekripsi](screenshots/dekripsi.png)
+### Deskripsi
+![Deskripsi](screenshots/deskripsi.png)
 
 ### Cari Kunci
 ![Cari Kunci](screenshots/cari_kunci.png)
