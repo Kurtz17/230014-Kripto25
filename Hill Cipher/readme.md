@@ -39,8 +39,6 @@ Program ini merupakan implementasi algoritma Hill Cipher dengan tiga fitur utama
 
 
 ## 💻 Alur Kerja Program
-## Alur Program
-
 1. **Mulai program**
    - Tampilkan judul dan menu utama.
 
