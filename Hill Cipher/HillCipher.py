@@ -1,6 +1,5 @@
 # Nama  : Muhammad Zahran Muntazar
 # NPM   : 140810230014
-# Kelas : B
 
 import numpy as np
 from math import gcd

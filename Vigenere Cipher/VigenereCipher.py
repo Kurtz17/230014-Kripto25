@@ -1,3 +1,6 @@
+# Nama  : Muhammad Zahran Muntazar
+# NPM   : 140810230014
+# Kelas : B
 class VigenereCipher:
     def __init__(self):
         self.alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
