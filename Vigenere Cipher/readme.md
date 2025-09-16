@@ -36,5 +36,5 @@ Program ini adalah implementasi **Vigenere Cipher** dalam bahasa Python. Program
 ### Enkripsi
 ![Enkripsi](screenshots/enkripsi.png)
 
-### Dekripsi
-![Dekripsi](screenshots/dekripsi.png)
+### Deskripsi
+![Dekripsi](screenshots/deskripsi.png)
