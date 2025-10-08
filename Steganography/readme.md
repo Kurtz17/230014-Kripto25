@@ -4,12 +4,11 @@
 **Nama**  : Muhammad Zahran Muntazar
 **NPM**   : 140810230014
 
----
-
 ## Deskripsi Program
 Program ini adalah implementasi **steganografi metode Least Significant Bit (LSB)** menggunakan **Python**. Aplikasi menyediakan menu CLI untuk:
 - **Encode**: menyisipkan **teks** atau **file (payload)** ke dalam **Cover Object** dan menghasilkan **Stego Object (PNG)**.
 - **Decode**: mengekstrak kembali **teks** atau **file** dari **Stego Object**.
+
 Algoritma memakai **2 LSB per kanal RGB** (6 bit/piksel) sehingga kapasitas besar dengan perubahan visual yang minim. 
 **Disarankan menggunakan format PNG (lossless).**
 
@@ -24,8 +23,6 @@ Steganography/
 ├─ LSB.py               # file program utama (menu + CLI argumen)
 └─ README.md            # dokumentasi
 ```
-
----
 
 ## Cara Menjalankan
 1. Pastikan sudah menginstall **Pillow**:
@@ -43,15 +40,13 @@ Steganography/
    - Pilih `2` untuk Decode.
    - Pilih `3` untuk Keluar.
 
----
-
 ## Alur Program
+
 1. **Menu Utama**
    - Pilih **1** untuk **Encode**.  
    - Pilih **2** untuk **Decode**.  
    - Pilih **3** untuk **Keluar**.  
    *Setelah selesai encode/decode, program kembali ke menu hingga kamu memilih Keluar.*
-
 
 2. **Encode**
    - Pilih jenis payload:
