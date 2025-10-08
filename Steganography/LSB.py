@@ -158,13 +158,10 @@ def ensure_dirs():
 
 def _resolve_user_path(input_str, default_dir):
     p = input_str.strip().strip('"').strip("'")
-    # If absolute path exists, use it
     if os.path.isabs(p) and os.path.exists(p):
         return p
-    # If relative path exists as given, use it
     if os.path.exists(p):
         return p
-    # Otherwise join with default_dir
     return os.path.join(default_dir, p)
 
 
